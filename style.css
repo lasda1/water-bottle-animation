@@ -1,0 +1,74 @@
+.background-bottle-color {
+    background-color: #0698EC;
+    max-width: 400px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.text-bottle {
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.text-font-width {
+    font-weight: 700;
+}
+
+#sum {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.glass-container {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.glass {
+    background: #E2E1E3;
+    min-width: 25px;
+    height: 44px;
+    position: relative;
+    margin: 10px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.water {
+    background-image: url("wave.jpg");
+    background-position: top right;
+    position: absolute;
+    min-width: 25px;
+    height: 0px;
+    bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.active {
+    height: 40px;
+    background-position: top left;
+    transition: height 1s ease;
+}
+.icon-position{
+    height: fit-content;
+    width: fit-content;
+    margin: 50% auto;
+}
+.check-position{
+    color: #33891c;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 100%;
+    margin-left: 45%;
+    display: none;
+    z-index: 3;
+    position: absolute;
+}
+.test{
+    background-image: url("waves.jpg");
+}
